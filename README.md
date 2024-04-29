@@ -17,7 +17,7 @@ Zerodha Technology (c) 2021. Licensed under the MIT License.
 ## Installation
 
 ```
-go get github.com/zerodha/gokiteconnect/v4
+go get github.com/imJayanth/gokiteconnect
 ```
 
 ## API usage
@@ -28,7 +28,7 @@ package main
 import (
 	"fmt"
 
-	kiteconnect "github.com/zerodha/gokiteconnect/v4"
+	kiteconnect "github.com/imJayanth/gokiteconnect"
 )
 
 const (
@@ -74,9 +74,9 @@ import (
 	"fmt"
 	"time"
 
-	kiteconnect "github.com/zerodha/gokiteconnect/v4"
-	kitemodels "github.com/zerodha/gokiteconnect/v4/models"
-	kiteticker "github.com/zerodha/gokiteconnect/v4/ticker"
+	kiteconnect "github.com/imJayanth/gokiteconnect"
+	kitemodels "github.com/imJayanth/gokiteconnect/models"
+	kiteticker "github.com/imJayanth/gokiteconnect/ticker"
 )
 
 var (
